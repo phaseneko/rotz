@@ -13,7 +13,7 @@ You can play RotZ either on a real NEC PC-8201 laptop or with VirtualT Emulator
 2. Git clone the repo
 3. Transfer all files inside 'Source' directory from PC to laptop via serial connection:
 
-	For all '.DO' files, use Load(f1) COM:9N81XN from main menu before transfering the file, then save the file to '.DO' format.
+	For all '.DO' files, use Load(f•1) COM:9N81XN from main menu before transfering the file, then save the file to '.DO' format.
 	
 	For all '.BA' files, inside BASIC, execute command 'LOAD "COM:9N81XN"' and press enter before transfering the file, then 'SAVE' the file to '.BA' format.
 	
@@ -26,9 +26,21 @@ You can play RotZ either on a real NEC PC-8201 laptop or with VirtualT Emulator
 	INTRO.DO
 	MKDATA.BA MAPGEN.BA	ROTZ.BA
 5. Run MAPGEN.BA to generate your own maps. Generated maps are stored in '.CO' format files
-6. Run ROTZ.BA to launch the main game. When prompted asking for map name, input name of the map you've generate in step 5 (case sensitive. without '.CO' postfix)
-7. Read 'Retro of the Zombie Survival Guide.pdf' for a complete explanation of how to play the game
-8. Enjoy it! :)
+6. You need to modify ROTZ.BA a bit before running the game (because serial connection doesn't support graph characters)
+	
+	Run BASIC from main menu
+	
+	Execute 'LOAD "ROTZ.BA"'
+	
+	Execute 'LIST 10'
+	
+	Change the end of line 10 from 'Z$="":X$="":C$=""' to 'Z$="⏴":X$="↲":C$="▩"' and press enter. Note that ⏴ is GRAPH-Z, ↲ is GRAPH-X and ▩ is GRAPH-C.
+	
+	Execute 'MENU'
+	
+7. Run ROTZ.BA to launch the main game. When prompted asking for map name, input name of the map you've generate in step 5 (case sensitive. without '.CO' postfix)
+8. Read 'Retro of the Zombie Survival Guide.pdf' for a complete explanation of how to play the game
+9. Enjoy it! :)
 
 ![](https://github.com/phaseneko/rotz/blob/main/Image/Photo0.jpg)
 ![](https://github.com/phaseneko/rotz/blob/main/Image/Photo1.jpg)
