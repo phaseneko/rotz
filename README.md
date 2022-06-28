@@ -34,7 +34,16 @@ You can play RotZ either on a real NEC PC-8201 laptop or with VirtualT Emulator
 	
 	Execute 'LIST 10'
 	
-	Change the end of line 10 from 'Z$="":X$="":C$=""' to 'Z$="⏴":X$="↲":C$="▩"' and press enter. Note that ⏴ is GRAPH-Z, ↲ is GRAPH-X and ▩ is GRAPH-C.
+	Change the end of line 10 from 
+	
+	```Basic
+	'Z$="":X$="":C$=""'
+	```
+	to 
+	```Basic
+	'Z$="⏴":X$="↲":C$="▩"'
+	```
+	and press enter. Note that ⏴ is GRAPH-Z, ↲ is GRAPH-X and ▩ is GRAPH-C.
 	
 	Execute 'MENU'
 	
