@@ -22,8 +22,8 @@ You can play RotZ either on a real NEC PC-8201 laptop or with VirtualT Emulator
 7. Read 'Retro of the Zombie Survival Guide.pdf' for a complete explanation of how to play the game
 8. Enjoy it! :)
 
-![](https://github.com/phaseneko/rotz/blob/main/Image/Photo0.png)
-![](https://github.com/phaseneko/rotz/blob/main/Image/Photo1.png)
+![](https://github.com/phaseneko/rotz/blob/main/Image/Photo0.jpg)
+![](https://github.com/phaseneko/rotz/blob/main/Image/Photo1.jpg)
 
 ## Play with VirtualT Emulator
 1. Download VirtualT Emulator package from https://sourceforge.net/projects/virtualt/ and extract it
