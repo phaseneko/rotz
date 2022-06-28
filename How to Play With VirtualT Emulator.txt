@@ -1,0 +1,69 @@
+How to play Retro of the Zombie With VirtualT Emulator
+====================================================
+1. Download VirtualT Emulator package from https://sourceforge.net/projects/virtualt/ and extract it
+2. Copy PC8201 directory to the working directory of VirtualT Emulator, overwrite all. (You may want to backup all original files in case of data loss)
+3. Launch VirtualT
+4. Select menu Emulation->Model->PC-8201
+					Emulation->Speed->Very CPU Friendly
+					Emulation->Display->Solid Chars
+5. Navigate to ROTZ.BA and press Enter
+6. When asked Map Name, input one from TOWN1/TOWN2/TOWN3 and press Enter
+7. Enjoy the game :)
+
+Tips
+====================================================
+1. Please read the Survival Guide before playing.
+2. Tweak speed and display options of VirtualT to play better.
+3. You can generate your own maps using MAPGEN.BA
+4. You can edit data assets ITEM.DO / TILE.DO / ENEMY.DO and use MKDATA.BA to build runtime data for game
+5. All source code and data of this game are published under GPL licence. Please read LICENSE for detail.
+
+Data Asset Format
+====================================================
+ITEM.DO:
+(Max item num: 50)
+ItemNum
+ItemName
+0. Break Chance /20
+1. Fail Chance /20
+2. Exception Chance /20
+3. Weight
+4. Function1
+5. Function2
+6. Value1
+7. Value2
+
+Item Functions:
+0. Simple Item
+1. Weapon
+2. Food
+3. Medicine
+4. (Reserved)
+5. (Reserved)
+6. Carpentry
+7. (Reserved)
+8. Protection
+9. Trading (Not implemented)
+10. (Reserved)
+
+TILE.DO:
+(Max enemy num: 20)
+0. Travel Cost /12
+1. Search Cost /12
+2. Encounter Chance /20
+3. Item Drop Num
+4...Max to 10 Pairs {Item Index & Item Drop Chance /20} (Must end with id=0)
+
+ENEMY.DO:
+(Max enemy num: 5)
+0. Encounter Weight
+1. Appear Day
+2. Min Attack
+3. Max Attack
+4. Infect Chance /20
+5. Miss Chance /20
+6. HP
+7. Min Num
+8. Max Num
+9. Item Drop Num
+10...Max to 5 Pairs {Item Index & Item Drop Chance /20} (Must end with id=0)
