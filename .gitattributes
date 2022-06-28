@@ -1,0 +1,3 @@
+*.BA linguist-language=Basic
+*.CO linguist-vendored
+*.DO linguist-vendored
