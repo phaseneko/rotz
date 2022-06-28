@@ -22,6 +22,9 @@ You can play RotZ either on a real NEC PC-8201 laptop or with VirtualT Emulator
 7. Read 'Retro of the Zombie Survival Guide.pdf' for a complete explanation of how to play the game
 8. Enjoy it! :)
 
+![](https://github.com/phaseneko/rotz/blob/main/Image/Photo0.png)
+![](https://github.com/phaseneko/rotz/blob/main/Image/Photo1.png)
+
 ## Play with VirtualT Emulator
 1. Download VirtualT Emulator package from https://sourceforge.net/projects/virtualt/ and extract it
 2. Copy PC8201 directory to the working directory of VirtualT Emulator, overwrite all. (You may want to backup all original files in case of data loss)
@@ -33,6 +36,10 @@ You can play RotZ either on a real NEC PC-8201 laptop or with VirtualT Emulator
 6. When asked Map Name, input one from TOWN1/TOWN2/TOWN3 and press Enter
 7. Read 'Retro of the Zombie Survival Guide.pdf' for a complete explanation of how to play the game
 8. Enjoy it! :)
+
+![](https://github.com/phaseneko/rotz/blob/main/Image/Screenshot0.png)
+![](https://github.com/phaseneko/rotz/blob/main/Image/Screenshot1.png)
+![](https://github.com/phaseneko/rotz/blob/main/Image/Screenshot2.png)
 
 # Modifying the Game
 You can edit data assets ITEM.DO / TILE.DO / ENEMY.DO and use MKDATA.BA to build runtime data for game
@@ -90,3 +97,5 @@ Item Functions:
 ## Code
 
 All source code and data of this game are published under GPL licence. Please read LICENSE for detail.
+
+
