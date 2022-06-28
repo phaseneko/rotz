@@ -2,6 +2,7 @@
 Retro of the Zombie (RotZ) is a text based roguelike game for NEC PC-8201 laptop computer
 
 The game is made by Ne³ Games
+
 ![](https://github.com/phaseneko/rotz/blob/main/Image/Ne³.png)
 
 # How to Play?
@@ -11,6 +12,7 @@ You can play RotZ either on a real NEC PC-8201 laptop or with VirtualT Emulator
 1. Make sure your laptop has at least 8K extended memory
 2. Git clone the repo
 3. Transfer all files inside 'Source' directory from PC to laptop via serial connection:
+
 	For all '.DO' files, use Load(f1) COM:9N81XN from main menu before transfering the file, then save the file to '.DO' format.
 	
 	For all '.BA' files, inside BASIC, execute command 'LOAD "COM:9N81XN"' and press enter before transfering the file, then 'SAVE' the file to '.BA' format.
