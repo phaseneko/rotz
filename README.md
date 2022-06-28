@@ -1,5 +1,6 @@
 # About RotZ
-Retro of the Zombie (RotZ) is a text based roguelike game for NEC PC-8201 laptop computer made by Ne^3 Games
+Retro of the Zombie (RotZ) is a text based roguelike game for NEC PC-8201 laptop computer made by Ne³ Games
+![](https://github.com/phaseneko/rotz/blob/main/Image/Ne³.png)
 
 # How to Play?
 You can play RotZ either on a real NEC PC-8201 laptop or with VirtualT Emulator
