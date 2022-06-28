@@ -48,7 +48,7 @@ You can play RotZ either on a real NEC PC-8201 laptop or with VirtualT Emulator
 	Execute 'MENU'
 	
 7. Run ROTZ.BA to launch the main game. When prompted asking for map name, input name of the map you've generate in step 5 (case sensitive. without '.CO' postfix)
-8. Read 'Retro of the Zombie Survival Guide.pdf' for a complete explanation of how to play the game
+8. Read [Retro of the Zombie Survival Guide.pdf](https://github.com/phaseneko/rotz/blob/main/Retro%20of%20the%20Zombie%20Survival%20Guide.pdf) for a complete explanation of how to play the game
 9. Enjoy it! :)
 
 ![](https://github.com/phaseneko/rotz/blob/main/Image/Photo0.jpg)
